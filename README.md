@@ -8,6 +8,7 @@ tags:
 - tensorrt
 - sdxl-turbo
 - text-to-image
+- onnx
 ---
 
 # SDXL-Turbo Tensorrt 
@@ -47,7 +48,7 @@ git checkout release/9.2
 docker run --rm -it --gpus all -v $PWD:/workspace nvcr.io/nvidia/pytorch:23.11-py3 /bin/bash
 ```
 
-2. Download the SDXL LCM TensorRT files from this repo
+2. Download the SDXL-Turbo TensorRT files from this repo
 ```shell
 git lfs install 
 git clone https://huggingface.co/stabilityai/sdxl-turbo-tensorrt
